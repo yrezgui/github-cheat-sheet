@@ -5,9 +5,9 @@ Une collection de fonctionnalités cools et pas si cachées de Git et GitHub. Ce
 
 ## Sommaire
  - [GitHub](#github)
-  - [Ignore Whitespace](#ignore-whitespace)
-  - [Adjust Tab Space](#adjust-tab-space)
-  - [Commit History by Author](#commit-history-by-author)
+  - [Ignorer les espaces](#ignorer-les-espaces)
+  - [Ajuster les espaces de tabulation](#ajuster-les-espaces-de-tabulation)
+  - [Historique des commits par auteur](#historique-des-commits-par-auteur)
   - [Cloning a Repository](#cloning-a-repository)
   - [Comparing Branches](#comparing-branches)
   - [Compare Branches across Forked Repositories](#compare-branches-across-forked-repositories)
@@ -58,26 +58,26 @@ Une collection de fonctionnalités cools et pas si cachées de Git et GitHub. Ce
     - [Git Books](#git-books)
 
 ## GitHub
-### Ignore Whitespace
-Adding `?w=1` to any diff URL will remove any changes only in whitespace, enabling you to see only that code that has changed.
+### Ignorer les espaces
+Ajoutez `?w=1` à chaque URL de diff aura pour effet d'enlever tous les changements qui n'ont pour nouveautés que des espaces, vous permettant de voir seulement le code ayant été vraiment modifié.
 
-![Diff without whitespace](https://camo.githubusercontent.com/797184940defadec00393e6559b835358a863eeb/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f776869746573706163652e706e67)
+![Diff sans espace](https://camo.githubusercontent.com/797184940defadec00393e6559b835358a863eeb/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f776869746573706163652e706e67)
 
-[*Read more about GitHub secrets.*](https://github.com/blog/967-github-secrets)
+[*Lire plus à propos des secrets de GitHub (lien en anglais).*](https://github.com/blog/967-github-secrets)
 
-### Adjust Tab Space
-Adding `?ts=4` to a diff or file URL will display tab characters as 4 spaces wide instead of the default 8. The number after `ts` can be adjusted to suit your preference. This does not work on Gists, or raw file views.
+### Ajuster les espaces de tabulation
+Ajoutez `?ts=4` à chaque URL de diff ou de fichier aura pour effet d'afficher les espaces de tabulation en tant que 4 "vrais" espaces à la place de 8. Le nombre ajouté après `ts` peut être ajuster suivant votre préférence. Cela ne marche pas sur les Gists ou l'affichage brut de fichiers.
 
-Here is a Go source file [before](https://github.com/pengwynn/flint/blob/master/flint/flint.go) adding `?ts=4`:
+Voici un exemple d'un fichier source Go [avant](https://github.com/pengwynn/flint/blob/master/flint/flint.go) l'ajout de `?ts=4`:
 
-![Before, tab space example](http://i.imgur.com/GIT1Fr0.png)
+![Avant, exemple d'espace de tabulation](http://i.imgur.com/GIT1Fr0.png)
 
-...and this is [after](https://github.com/pengwynn/flint/blob/master/flint/flint.go?ts=4) adding `?ts=4`:
+...et le voici [après](https://github.com/pengwynn/flint/blob/master/flint/flint.go?ts=4) l'ajout de `?ts=4`:
 
-![After, tab space example](http://i.imgur.com/70FL4H9.png)
+![Après, exemple d'espace de tabulation](http://i.imgur.com/70FL4H9.png)
 
-### Commit History by Author
-To view all commits on a repo by author add `?author=username` to the URL.
+### Historique des commits par auteur
+Pour voir tous les commits d'un auteur sur un dépôt, ajoutez `?author=username` à l'URL.
 
 ```
 https://github.com/rails/rails/commits/master?author=dhh
@@ -85,7 +85,7 @@ https://github.com/rails/rails/commits/master?author=dhh
 
 ![DHH commit history](http://i.imgur.com/mDWwuaY.png)
 
-[*Read more about the differences between commits views.*](https://help.github.com/articles/differences-between-commit-views)
+[*Lire plus sur les différents affichages de commits.*](https://help.github.com/articles/differences-between-commit-views)
 
 ### Cloning a Repository
 When cloning a repository the `.git` can be left off the end.
