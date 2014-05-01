@@ -1,9 +1,9 @@
-# GitHub Cheat Sheet
-A collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by [Zach Holman](https://github.com/holman)'s [Git and GitHub Secrets](http://www.confreaks.com/videos/1229-aloharuby2012-git-and-github-secrets) talk at Aloha Ruby Conference 2012 ([slides](https://speakerdeck.com/holman/git-and-github-secrets)) and his [More Git and GitHub Secrets](https://vimeo.com/72955426) talk at WDCNZ 2013 ([slides](https://speakerdeck.com/holman/more-git-and-github-secrets)).
+# Aide-mémoire GitHub
+Une collection de fonctionnalités cools et pas si cachées de Git et GitHub. Cet aide-mémoire a été inspiré par la présentation [Git and GitHub Secrets](http://www.confreaks.com/videos/1229-aloharuby2012-git-and-github-secrets) de [Zach Holman](https://github.com/holman) à l'Aloha Ruby Conference 2012 ([slides](https://speakerdeck.com/holman/git-and-github-secrets)) ainsi que son autre présentation [More Git and GitHub Secrets](https://vimeo.com/72955426) au WDCNZ 2013 ([slides](https://speakerdeck.com/holman/more-git-and-github-secrets)).
 
-*Read this in other languages: [English](README.md), [한국어](README.ko.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md)]).*
+*Vous pouvez lire l'aide mémoire dans ces différentes langues: [English](README.md), [한국어](README.ko.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md), [Français](README.fr.md).*
 
-## Table of Contents
+## Sommaire
  - [GitHub](#github)
   - [Ignore Whitespace](#ignore-whitespace)
   - [Adjust Tab Space](#adjust-tab-space)
