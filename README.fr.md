@@ -63,7 +63,7 @@ Ajoutez `?w=1` à chaque URL de diff aura pour effet d'enlever tous les changeme
 
 ![Diff sans espace](https://camo.githubusercontent.com/797184940defadec00393e6559b835358a863eeb/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f776869746573706163652e706e67)
 
-[*Lire plus à propos des secrets de GitHub (lien en anglais).*](https://github.com/blog/967-github-secrets)
+[*Lire plus à propos des secrets de GitHub.*](https://github.com/blog/967-github-secrets)
 
 ### Ajuster les espaces de tabulation
 Ajoutez `?ts=4` à chaque URL de diff ou de fichier aura pour effet d'afficher les espaces de tabulation en tant que 4 "vrais" espaces à la place de 8. Le nombre ajouté après `ts` peut être ajuster suivant votre préférence. Cela ne marche pas sur les Gists ou l'affichage brut de fichiers.
@@ -87,64 +87,64 @@ https://github.com/rails/rails/commits/master?author=dhh
 
 [*Lire plus sur les différents affichages de commits.*](https://help.github.com/articles/differences-between-commit-views)
 
-### Cloning a Repository
-When cloning a repository the `.git` can be left off the end.
+### Cloner un dépôt
+Quand vous clonez un dépôt, le `.git` à la fin des URL peut être ignoré, il est optionnel.
 
 ```bash
 $ git clone https://github.com/tiimgreen/github-cheat-sheet
 ```
 
-[*Read more about the Git `clone` command.*](http://git-scm.com/docs/git-clone)
+[*Lire plus sur la commande Git `clone`.*](http://git-scm.com/docs/git-clone)
 
-### Comparing Branches
-To use GitHub to compare branches, change the URL to look like this:
+### Comparaison de branches
+Pour utiliser GitHub afin de comparer des branches, changez l'URL afin qu'elle ressemble à l'exemple suivant:
 
 ```
 https://github.com/user/repo/compare/{range}
 ```
 
-Where `{range} = master...4-1-stable`
+Le paramètre range doit être remplacé par ce format  `{range} = master...4-1-stable`
 
-For example:
+Exemple:
 
 ```
 https://github.com/rails/rails/compare/master...4-1-stable
 ```
 
-![Rails branch compare example](http://i.imgur.com/0Z52X5Y.png)
+![Comparaison de branches du projet Rails](http://i.imgur.com/0Z52X5Y.png)
 
-`{range}` can be changed to things like:
+`{range}` accepte d'autres formats comme ceux-ci:
 
 ```
 https://github.com/rails/rails/compare/master@{1.day.ago}...master
 https://github.com/rails/rails/compare/master@{2014-10-04}...master
 ```
 
-*Dates are in the format `YYYY-DD-MM`*
+*Les dates doivent être dans ce format `AAAA-JJ-MM`*
 
-![Another compare example](http://i.imgur.com/5dtzESz.png)
+![Un autre exemple de comparaison](http://i.imgur.com/5dtzESz.png)
 
-...which allows you to see the difference on the master branch up a set time ago or a specified date.
+...ce qui vous permet de voir les différentes avec la branche master sur une période donnée ou une date spécifique.
 
-[*Read more about comparing commits across time.*](https://help.github.com/articles/comparing-commits-across-time)
+[*Lire plus sur la comparaison de commits par rapport à travers le temps.*](https://help.github.com/articles/comparing-commits-across-time)
 
-### Compare Branches across Forked Repositories
-To use GitHub to compare branches across forked repositories, change the URL to look like this:
+### Comparer les branches entres dépôts forkés
+Afin d'utiliser GitHub pour comparer les branches entre dépôts forkés, changez l'URL afin qu'elle ressemble à la suivante:
 
 ```
-https://github.com/user/repo/compare/{foreign-user}:{branch}...{own-branch}
+https://github.com/user/repo/compare/{autre-utilisateur}:{branch}...{votre-branche}
 ```
 
-For example:
+Par exemple:
 
 ```
 https://github.com/rails/rails/compare/byroot:master...master
 ```
 
-![Forked branch compare](http://i.imgur.com/Q1W6qcB.png)
+![Comparaison de branches entres forks](http://i.imgur.com/Q1W6qcB.png)
 
 ### Gists
-[Gists](https://gist.github.com/) are an easy way to work with small bits of code without creating a fully fledged repository.
+[Gists](https://gist.github.com/) sont un moyen simple de partager des bouts de code sans se tracasser avec la création d'un dépôt.
 
 ![Gist](http://i.imgur.com/VkKI1LC.png?1)
 
